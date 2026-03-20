@@ -42,17 +42,12 @@
             "id": "dfc7dae5ed9bdeb0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "test_canvas.canvas",
-                "viewState": {
-                  "x": -259.10003662109375,
-                  "y": 164.30003356933594,
-                  "zoom": 0
-                }
+                "file": "Excalidraw/test-draw.md"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "test_canvas"
+              "icon": "excalidraw-icon",
+              "title": "test-draw"
             }
           }
         ],
@@ -129,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test_canvas.canvas",
+                "file": "Excalidraw/test-draw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "test_canvas 的反向链接列表"
+              "title": "test-draw 的反向链接列表"
             }
           },
           {
@@ -148,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test_canvas.canvas",
+                "file": "Excalidraw/test-draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "test_canvas 的出链列表"
+              "title": "test-draw 的出链列表"
             }
           },
           {
@@ -191,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test_canvas.canvas",
+                "file": "Excalidraw/test-draw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "test_canvas 的大纲"
+              "title": "test-draw 的大纲"
             }
           },
           {
@@ -243,6 +238,8 @@
   },
   "active": "dfc7dae5ed9bdeb0",
   "lastOpenFiles": [
+    "characters.png",
+    "test_canvas.canvas",
     "kanban.md",
     "Excalidraw/test-draw.md",
     "pic/4.png",
@@ -251,7 +248,6 @@
     "pic/1.png",
     "pic",
     "企业微信截图_20251231115144.png",
-    "test_canvas.canvas",
     "Excalidraw",
     "test/second.md",
     "test/first.md",
