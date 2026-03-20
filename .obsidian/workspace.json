@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "221949c2d658161e",
+    "type": "split",
+    "children": [
+      {
+        "id": "515a4a4d8d2c706b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d454ce79dd76d242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test/first.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "first"
+            }
+          },
+          {
+            "id": "b0c9cdcb8ae3ac0e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "test_canvas.canvas",
+                "viewState": {
+                  "x": 40.800048828125,
+                  "y": 178.40000915527344,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "test_canvas"
+            }
+          },
+          {
+            "id": "dfc7dae5ed9bdeb0",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "test_canvas.canvas",
+                "viewState": {
+                  "x": -259.10003662109375,
+                  "y": 164.30003356933594,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "test_canvas"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e38566982e0aa5d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "bee4b997eec95c72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7d317c953b76c5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "cea56d8f91602469",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "83cf9517c4690992",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "69928ca2ec4d7a1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "37f18fc12aaa7f68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cccc33cc0901178",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "test_canvas.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "test_canvas 的反向链接列表"
+            }
+          },
+          {
+            "id": "2c39a4eb75190774",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "test_canvas.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "test_canvas 的出链列表"
+            }
+          },
+          {
+            "id": "381b3138ebb50e70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "599010f5ed5b9d13",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "da6bd1a4062390af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "test_canvas.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "test_canvas 的大纲"
+            }
+          },
+          {
+            "id": "82eb76cef5cb416e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "0851d55284817eeb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:创建新看板": false
+    }
+  },
+  "active": "dfc7dae5ed9bdeb0",
+  "lastOpenFiles": [
+    "kanban.md",
+    "Excalidraw/test-draw.md",
+    "pic/4.png",
+    "pic/3.png",
+    "pic/2.png",
+    "pic/1.png",
+    "pic",
+    "企业微信截图_20251231115144.png",
+    "test_canvas.canvas",
+    "Excalidraw",
+    "test/second.md",
+    "test/first.md",
+    "test"
+  ]
+}

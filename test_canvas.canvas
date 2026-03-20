@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"1908a4d09731aea2","type":"text","text":"# title","x":0,"y":-195,"width":250,"height":60},
+		{"id":"de841402fb55a831","x":-940,"y":80,"width":400,"height":201,"type":"file","file":"kanban.md"},
+		{"id":"a7ba353d45e6ce9c","type":"file","file":"test/first.md","x":-240,"y":120,"width":332,"height":182},
+		{"id":"28178f1148415b93","type":"file","file":"test/second.md","x":125,"y":120,"width":498,"height":536},
+		{"id":"0bd024a59ef10c5f","x":700,"y":120,"width":400,"height":400,"type":"file","file":"Excalidraw/test-draw.md"}
+	],
+	"edges":[
+		{"id":"72569fee78f60fca","fromNode":"1908a4d09731aea2","fromSide":"bottom","toNode":"a7ba353d45e6ce9c","toSide":"top"},
+		{"id":"bf51278806abaf16","fromNode":"1908a4d09731aea2","fromSide":"bottom","toNode":"28178f1148415b93","toSide":"top"},
+		{"id":"866f4302013ae875","fromNode":"1908a4d09731aea2","fromSide":"right","toNode":"0bd024a59ef10c5f","toSide":"top"},
+		{"id":"714cb6016179a904","fromNode":"1908a4d09731aea2","fromSide":"left","toNode":"de841402fb55a831","toSide":"top"}
+	]
+}
