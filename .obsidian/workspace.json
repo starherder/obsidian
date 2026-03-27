@@ -42,12 +42,20 @@
             "id": "dfc7dae5ed9bdeb0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "kanban",
               "state": {
-                "file": "Excalidraw/test-draw.md"
+                "file": "gst_work/BeijingPlane.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "test-draw"
+              "icon": "lucide-trello",
+              "title": "BeijingPlane"
             }
           }
         ],
@@ -201,8 +209,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -238,6 +246,12 @@
   },
   "active": "dfc7dae5ed9bdeb0",
   "lastOpenFiles": [
+    "gst_work/FriendsModule.canvas",
+    "gst_work/BeijingPlane.md",
+    "gst_work/好友/好友备注功能.md",
+    "gst_work/好友/Pgos-SetKV 接口优化.md",
+    "gst_work/好友/DS端好友列表.md",
+    "gst_work/好友/好友界面.md",
     "characters.png",
     "test_canvas.canvas",
     "kanban.md",

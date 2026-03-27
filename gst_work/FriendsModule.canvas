@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"6e2c2af28ae306b3","type":"text","text":"# 好友需求","x":-620,"y":-640,"width":250,"height":60},
+		{"id":"8b7a8c2922d3680f","type":"file","file":"gst_work/好友/好友界面.md","x":-1340,"y":-340,"width":420,"height":340},
+		{"id":"3f0eb5d7db58a7a9","type":"text","text":"## DS端需求：\n\n- **PGOS 接口优化**\n- **DS端PGOS模块**：支持访问PGOS的好友功能，当其他模块需要好友信息时，返回信息给他们\n- **好友备注功能**：玩家A在自己身上记录一个表，映射好友名字和备注信息\n- 客户端界面表现：客户端自己去PGOS拉取数据，目前没有DS需求\n- 好友聊天：目前没有什么新需求\n","x":-812,"y":-340,"width":635,"height":265},
+		{"id":"991f08115b06e4b6","type":"text","text":"> 策划案（好友界面功能都是客户端直接和PGOS交互，基本没有DS的功能）","x":-1297,"y":-500,"width":335,"height":100},
+		{"id":"753848a99810c965","type":"text","text":"### PGOS 接口优化：\n**(3d)**\n\n> 还有个pgos接口优化的事  \n`ABasePlayerState::TickPgosDirtyData`\n`SetPlayerKVData`和`SetOneOfPlayerKVData`可以用`BatchSetPlayerKVData`替代","x":-80,"y":-319,"width":454,"height":223},
+		{"id":"721944ee196e5ad8","type":"file","file":"gst_work/好友/好友备注功能.md","x":-900,"y":80,"width":400,"height":400},
+		{"id":"0029a9f23412062c","type":"file","file":"gst_work/好友/DS端好友列表.md","x":-486,"y":80,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"00d0bef0cfb70b68","fromNode":"6e2c2af28ae306b3","fromSide":"bottom","toNode":"991f08115b06e4b6","toSide":"right"},
+		{"id":"4a7a2c2ef8dfa137","fromNode":"991f08115b06e4b6","fromSide":"bottom","toNode":"8b7a8c2922d3680f","toSide":"top"},
+		{"id":"6592599d413aefca","fromNode":"6e2c2af28ae306b3","fromSide":"bottom","toNode":"3f0eb5d7db58a7a9","toSide":"top"},
+		{"id":"f04921ad1636375f","fromNode":"3f0eb5d7db58a7a9","fromSide":"right","toNode":"753848a99810c965","toSide":"left"},
+		{"id":"51bdea5df0d5803c","fromNode":"3f0eb5d7db58a7a9","fromSide":"bottom","toNode":"721944ee196e5ad8","toSide":"top"},
+		{"id":"b0f87bc96b68301d","fromNode":"3f0eb5d7db58a7a9","fromSide":"bottom","toNode":"0029a9f23412062c","toSide":"top"}
+	]
+}
