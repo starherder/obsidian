@@ -25,23 +25,6 @@
             "id": "b0c9cdcb8ae3ac0e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "test_canvas.canvas",
-                "viewState": {
-                  "x": 40.800048828125,
-                  "y": 178.40000915527344,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "test_canvas"
-            }
-          },
-          {
-            "id": "dfc7dae5ed9bdeb0",
-            "type": "leaf",
-            "state": {
               "type": "kanban",
               "state": {
                 "file": "gst_work/BeijingPlane.md",
@@ -57,9 +40,50 @@
               "icon": "lucide-trello",
               "title": "BeijingPlane"
             }
+          },
+          {
+            "id": "72635f0e7f04160f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "gst_work/图床/企业微信截图_1776686602281.png"
+              },
+              "icon": "lucide-image",
+              "title": "企业微信截图_1776686602281"
+            }
+          },
+          {
+            "id": "7cdc3d12f240de66",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "gst_work/图床/企业微信截图_17766864555910.png"
+              },
+              "icon": "lucide-image",
+              "title": "企业微信截图_17766864555910"
+            }
+          },
+          {
+            "id": "f53a454a1e9c8619",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": -265,
+                  "y": 132,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -132,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/test-draw.md",
+                "file": "gst_work/FriendsModule.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "test-draw 的反向链接列表"
+              "title": "FriendsModule 的反向链接列表"
             }
           },
           {
@@ -151,12 +175,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/test-draw.md",
+                "file": "gst_work/FriendsModule.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "test-draw 的出链列表"
+              "title": "FriendsModule 的出链列表"
             }
           },
           {
@@ -194,13 +218,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/test-draw.md",
+                "file": "gst_work/FriendsModule.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "test-draw 的大纲"
+              "title": "FriendsModule 的大纲"
             }
           },
           {
@@ -209,8 +233,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -228,7 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 349.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,13 +268,34 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "dfc7dae5ed9bdeb0",
+  "active": "0851d55284817eeb",
   "lastOpenFiles": [
+    "gst_work/Drawing 2026-04-23 17.27.38.excalidraw.md",
+    "未命名.canvas",
+    "gst_work/PhotoEditor.canvas",
     "gst_work/FriendsModule.canvas",
+    "gst_work/小岛抢劫/工作内容.md",
+    "gst_work/小岛抢劫/工作安排.md",
+    "gst_work/图床/企业微信截图_177685872470.png",
+    "Pasted image 20260423162903.png",
+    "gst_work/图床/企业微信截图_177693028873.png",
+    "gst_work/小岛抢劫/需求分析.md",
     "gst_work/BeijingPlane.md",
+    "gst_work/小岛抢劫",
+    "gst_work/图床/企业微信截图_1776686602281.png",
+    "gst_work/图床/企业微信截图_17766864797660.png",
+    "gst_work/图床/企业微信截图_17766864555910.png",
+    "gst_work/拍照/照片编辑修改.md",
+    "gst_work/拍照/照片编辑配置.md",
+    "gst_work/拍照/侧边栏.md",
+    "gst_work/拍照编辑.md",
+    "gst_work/拍照",
     "gst_work/好友/好友备注功能.md",
-    "gst_work/好友/Pgos-SetKV 接口优化.md",
     "gst_work/好友/DS端好友列表.md",
+    "knowledge/medicate3.md",
+    "knowledge/为何git搞那么复杂.md",
+    "gst_work/好友/Pgos-SetKV 接口优化.md",
+    "knowledge",
     "gst_work/好友/好友界面.md",
     "characters.png",
     "test_canvas.canvas",
@@ -259,9 +304,7 @@
     "pic/4.png",
     "pic/3.png",
     "pic/2.png",
-    "pic/1.png",
     "pic",
-    "企业微信截图_20251231115144.png",
     "Excalidraw",
     "test/second.md",
     "test/first.md",

@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"7171a07f4fa8032b","type":"file","file":"gst_work/拍照/照片编辑配置.md","x":487,"y":-260,"width":413,"height":600},
+		{"id":"435b421bfea24ce4","type":"text","text":"### 将PhotoEditor独立为一个单独界面\n\n已完成，需优化，PhotoMain中的self.PhotoEditor.xxx的操作都放到PhotoEditor.lua中","x":-500,"y":-260,"width":220,"height":240},
+		{"id":"71b9cc16c3735919","type":"text","text":"# 拍照-编辑","x":-240,"y":-520,"width":160,"height":60},
+		{"id":"24facf7f510e35f5","type":"file","file":"gst_work/拍照/侧边栏.md","x":-180,"y":-260,"width":506,"height":215}
+	],
+	"edges":[
+		{"id":"c48d227540525174","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"435b421bfea24ce4","toSide":"top"},
+		{"id":"c02b636b4220e0d5","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"24facf7f510e35f5","toSide":"top"},
+		{"id":"2180bfd9e9d72a18","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"7171a07f4fa8032b","toSide":"top"}
+	]
+}

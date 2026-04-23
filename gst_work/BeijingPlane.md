@@ -6,16 +6,47 @@ kanban-plugin: board
 
 ## plane
 
-- [ ] 服务器端增加Pgos拉取好友列表接口
+- [ ] 文字：文字屏蔽字检查
 
 
 ## in-progress
 
-- [ ] 优化pgos的setkv操作，改为batch模式
+
+
+## hangout
+
+- [ ] 侧边栏排列：字体颜色grid
+- [ ] 侧边栏排列：贴纸grid
+
+
+## PhotoComplete
+
+- [ ] 小游戏：警卫之间要设置最小距离
+- [ ] 玩家名字ID 和游戏LOGO永远是在最上层的（修改ZOrder即可）
+- [ ] 编辑文字的时候和编辑贴纸一样，点击其他区域，就默认不选中了（本地正常，是不是没有编译）
+- [ ] 编辑完成之后，默认文字和贴纸就不能点击了(增加了可编辑状态)
+- [ ] 拍照后，如果设置界面还打开着，默认自动关闭
+- [ ] 有时候删除按钮失灵
+- [ ] 贴纸编辑的时候，一开始是没有任何选中的，所以界面上不会有选中效果
+- [ ] 编辑照片的时候，不保存，直接关掉，下次拍照后，没有编辑按钮
+- [ ] 没有点保存，直接关闭编辑界面，默认之前编辑的数据清空（增加clear方法）
+- [ ] 贴纸：旋转后的缩放坐标
+- [ ] 文字：数量控制
+- [ ] 贴纸：贴纸数量控制
+- [ ] 文字：文字大小控制
+- [ ] 文字：文字字数控制
+- [ ] 贴纸：缩放大小控制
+- [ ] 拍照：PhotoEditor 文字
+- [ ] 拍照：PhotoEditor 贴纸
+- [ ] 拍照：PhotoEditor 侧边栏
+- [ ] 拍照: 将PhotoEditor独立为一个界面
+- [ ] ugc 分支环境部署
 
 
 ## complete
 
+- [ ] 优化pgos的setkv操作，改为batch模式
+- [ ] 服务器端增加Pgos拉取好友列表接口
 - [ ] 查看好友系统代码，梳理逻辑
 - [ ] 研究好友功能需求
 - [ ] 客户端好友Pgos提供设置备注功能
@@ -33,6 +64,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
 ```
 %%
