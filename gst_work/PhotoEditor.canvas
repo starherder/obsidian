@@ -1,13 +1,15 @@
 {
 	"nodes":[
-		{"id":"7171a07f4fa8032b","type":"file","file":"gst_work/拍照/照片编辑配置.md","x":487,"y":-260,"width":413,"height":600},
-		{"id":"435b421bfea24ce4","type":"text","text":"### 将PhotoEditor独立为一个单独界面\n\n已完成，需优化，PhotoMain中的self.PhotoEditor.xxx的操作都放到PhotoEditor.lua中","x":-500,"y":-260,"width":220,"height":240},
-		{"id":"71b9cc16c3735919","type":"text","text":"# 拍照-编辑","x":-240,"y":-520,"width":160,"height":60},
-		{"id":"24facf7f510e35f5","type":"file","file":"gst_work/拍照/侧边栏.md","x":-180,"y":-260,"width":506,"height":215}
+		{"id":"d1f839c9acc9e916","type":"text","text":"# 文字敏感词检验\n- PGOS升级\n- PlayerManagerPGOS.h中增加接口\n```cpp\n\nbool UPlayersManagerPGOS::CheckInput(const FString& Input)\n{\n    auto PlayerProfile = IPgosSDKCpp::Get().GetClientPlayerProfileAPI();  \n    if (PlayerProfile)  \n    {\n\t    TWeakObjectPtr<UPlayersManagerPGOS> WeakPtr = this;  \n\t    PlayerProfile->CheckInput(Params, [WeakPtr](const FPgosResult& Ret, const Pgos::FPgosCheckInputResult* Data) {  \n\t        if (WeakPtr.IsValid())  \n\t        {             \n\t\t        WeakPtr->CheckInputCallback(Ret, Data);  \n\t        } \n        });  \n    }\n}\n\nvoid UPlayersManagerPGOS::CheckInputCallback(const FPgosResult& Ret, const Pgos::FPgosCheckInputResult* Data) \n{\n\t// 响应一个Delegate\n}\n```\n\nlua中\n```lua\n  \nfunction init()\n\tself.PlayersManager = UE.UInstanceBlueprintFunctionLibrary.GetPlayerManager(self)\n\tself.PlayersManager.OnEventBatchGetPlayerInfoResult:Remove(self, self.OnEventBatchGetPlayerInfoResult)  \n\tself.PlayersManager.OnEventBatchGetPlayerInfoResult:Add(self, self.OnEventBatchGetPlayerInfoResult)\nend\n    \n      \nfunction M:OnEventBatchGetPlayerInfoResult(errCode, Data)\n\nend\n\n```\n\n\n\n","x":-560,"y":-20,"width":906,"height":460},
+		{"id":"24facf7f510e35f5","type":"file","file":"gst_work/拍照/侧边栏.md","x":-80,"y":-260,"width":426,"height":200},
+		{"id":"435b421bfea24ce4","type":"text","text":"### 将PhotoEditor独立为一个单独界面\n\n已完成，需优化，PhotoMain中的self.PhotoEditor.xxx的操作都放到PhotoEditor.lua中","x":-560,"y":-260,"width":420,"height":200},
+		{"id":"7171a07f4fa8032b","type":"file","file":"gst_work/拍照/照片编辑配置.md","x":380,"y":-260,"width":560,"height":700},
+		{"id":"71b9cc16c3735919","type":"text","text":"# 拍照-编辑","x":-187,"y":-500,"width":160,"height":60}
 	],
 	"edges":[
 		{"id":"c48d227540525174","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"435b421bfea24ce4","toSide":"top"},
 		{"id":"c02b636b4220e0d5","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"24facf7f510e35f5","toSide":"top"},
-		{"id":"2180bfd9e9d72a18","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"7171a07f4fa8032b","toSide":"top"}
+		{"id":"2180bfd9e9d72a18","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"7171a07f4fa8032b","toSide":"top"},
+		{"id":"02527d947b898eb3","fromNode":"71b9cc16c3735919","fromSide":"bottom","toNode":"d1f839c9acc9e916","toSide":"top"}
 	]
 }
