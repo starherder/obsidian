@@ -1,0 +1,17 @@
+{
+  "Add": [
+    {
+      "Key": "TestTestTest",
+      "Type": "String",
+      "DefaultValue": "{}",
+      "ServerOnly": false,
+      "ClientWritable": false,
+      "ClientPublic": true,
+      "Versioned": false,
+      "Description": "set from cli"
+    }
+  ],
+  "Update": [],
+  "Remove": []
+}
+

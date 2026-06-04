@@ -6,16 +6,20 @@ kanban-plugin: board
 
 ## plane
 
-- [ ] 小岛抢任务列表跟进
 
 
 ## in-progress
 
-- [ ] 小岛抢玩法新增，修改条件判断
+
+
+## 第四次到北京
+
 
 
 ## 第三次来北京
 
+- [ ] 小岛抢任务列表跟进
+- [ ] 小岛抢玩法新增，修改条件判断
 - [ ] 拍照在手机包上无法缩放旋转
 - [ ] 小岛抢表格优化（继承自TPSMap?）
 - [ ] 新增小岛抢任务类型
@@ -83,6 +87,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,null,false],"show-archive-all":true,"archive-with-date":true,"append-archive-date":false,"date-colors":[{"isToday":false,"distance":1,"unit":"days","direction":"after"}],"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,null,false],"show-archive-all":true,"archive-with-date":true,"append-archive-date":false,"date-colors":[{"isToday":false,"distance":1,"unit":"days","direction":"after"}],"tag-colors":[{"tagKey":"","color":"","backgroundColor":""}]}
 ```
 %%
