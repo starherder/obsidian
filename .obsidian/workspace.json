@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gst_work/苏州/功能禁用/功能禁用.md",
+                "file": "gst_work/苏州/赛车/race-demo-3 算法分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "功能禁用"
+              "title": "race-demo-3 算法分析"
             }
           }
         ],
@@ -121,7 +121,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -133,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#pragma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -288,17 +290,25 @@
   },
   "active": "2a888e24ef6307af",
   "lastOpenFiles": [
+    "gst_work/苏州/赛车/方案讨论.md",
+    "gst_work/苏州/赛车/race-demo-3 算法分析.md",
+    "gst_work/苏州/赛车/废车回收-赛车.md",
+    "gst_work/苏州/赛车/赛车方案 AI - tf.meng.md",
+    "gst_work/苏州/赛车",
+    "gst_work/苏州/优化.md",
+    "gst_work/北京/FriendsModule.canvas",
+    "gst_work/北京/BeijingPlane.md",
+    "gst_work/北京/Goal/Goal系统笔记.md",
+    "gst_work/苏州/苏州计划.md",
+    "gst_work/苏州/功能禁用/功能禁用.md",
     "gst_work/苏州/功能禁用/使用PgosCli批量增删KVData.md",
     "add_kvdata_param.json",
     "title_regions.txt",
     "del_kvdata_param.json",
     "batch_set_kvdata.bat",
-    "gst_work/苏州/功能禁用/功能禁用.md",
-    "gst_work/苏州/苏州计划.md",
     "gst_work/北京/小岛抢劫/小岛抢劫.canvas",
     "gst_work/北京/制毒工厂/制毒工厂工作分配.md",
     "企业微信截图_17804668662530.png",
-    "gst_work/北京/BeijingPlane.md",
     "gst_work/北京/制毒工厂",
     "gst_work/拍照/PhotoEditor.canvas",
     "gst_work/图床/Pasted image 20260528114555.png",
@@ -317,25 +327,18 @@
     "gst_work/北京/小岛抢劫/工作内容.md",
     "gst_work/北京/好友/DS端好友列表.md",
     "gst_work/北京/好友/好友界面.md",
-    "gst_work/北京/FriendsModule.canvas",
     "gst_work/北京/好友/好友备注功能.md",
     "knowledge/medicate3.md",
     "gst_work/拍照/照片编辑配置.md",
     "gst_work/拍照/侧边栏.md",
     "gst_work/北京/小岛抢劫/需求分析.md",
-    "gst_work/北京/Goal/Goal系统笔记.md",
     "knowledge/为何git搞那么复杂.md",
     "gst_work/北京/Goal",
     "gst_work/北京/小岛抢劫/工作安排.md",
     "AI/AI 助手.md",
-    "AI",
     "gst_work/图床/企业微信截图_17766864555910.png",
     "gst_work/图床/企业微信截图_1776686602281.png",
     "gst_work/Drawing 2026-04-23 17.27.38.excalidraw.md",
-    "gst_work/拍照编辑.md",
-    "gst_work/北京/好友/Pgos-SetKV 接口优化.md",
-    "test_canvas.canvas",
-    "kanban.md",
-    "Excalidraw/test-draw.md"
+    "test_canvas.canvas"
   ]
 }
